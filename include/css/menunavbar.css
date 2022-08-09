@@ -1,0 +1,40 @@
+
+    .navbar-custom {
+    background-color: #ff9500;
+    	color:White;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	
+	border-bottom: 1px solid #ccc;
+	
+    }  
+	
+	.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+	}
+
+
+	.navbar .nav > li > a:hover{
+	color:#663399;
+	}
+	
+    
+                                        
+/* Adjust dropdown Menu items (blue) text color #0080ff */
+    .dropdown-menu > li > a 
+    {
+        background:#0080ff;
+    }
+	
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+	
+	.pv{
+		display:inline;
+	}
+	
+	
+	   

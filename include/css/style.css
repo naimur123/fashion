@@ -1,0 +1,113 @@
+
+/* Global Styles */
+*, *,  before, *:after {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro",  "Helvetica Neue",  Helvetica,  Arial,  sans-serif;
+    background-image: url("images/background.png");
+    /* overflow-x: hidden; */
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+
+.navbar .nav > li > a:hover{
+	color:#663399;
+	}
+
+
+
+.mega-dropdown {
+  position: static !important;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 5px 60px 5px 5px;
+  
+}
+
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+ 
+ .navbar{
+     border:none;
+     border-radius: 0px;
+ }
+ 
+
+ 
+ 
+#headerup {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+
+
+ 
+ 
+ 
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+
+
+
+
+ 
